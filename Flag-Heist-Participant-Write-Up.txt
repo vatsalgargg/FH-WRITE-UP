@@ -1,0 +1,29 @@
+FLAG HEIST - THE VEYRA BREACH
+==============================
+
+Veyra Cloud Solutions has been breached. Your job is to piece together
+what happened by investigating 13 connected challenges. You will work
+through websites, encrypted messages, public information, and digital
+evidence. Each task has one flag in the format ROOT{...}.
+
+GET STARTED
+
+1. Import Flag-Heist-THM-cloud-ready.ova into Oracle VirtualBox.
+2. Follow Flag-Heist-Local-VirtualBox-Steps.txt to set the VM to Host-only
+   networking and find its IP address. This keeps the lab on your computer.
+3. Start the VM and give the services about two minutes to come up.
+4. On your computer, open http://VM_IP/ in your browser. Replace VM_IP
+   with the IP of your local Flag Heist VM.
+5. Sign in to the Mission Console using the operator account in the room
+   instructions. Open Task 1 to start. Its direct URL is http://VM_IP:3101/.
+
+The Mission Console lists the tasks, opens the challenge sites, and
+provides the evidence files. Keep the Flag Heist VM running while you play.
+Since this copy runs on your computer, you can skip the hosted AttackBox
+and OpenVPN.
+
+SUBMIT YOUR FLAGS
+
+If your organiser is using the TryHackMe room for submissions, enter
+each flag in the matching task there. Use the IP from your local VM for
+the challenge sites. Use the room page to submit your answers.
